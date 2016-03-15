@@ -18,9 +18,11 @@ class Node{
 
 class BinaryTree{
 	public:
+
 	BinaryTree(void){
 		this->root = NULL;
 	}
+
 	~BinaryTree(){}
 
 	Node* root;
